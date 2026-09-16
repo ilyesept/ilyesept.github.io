@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ilyes Laaradh — Computer Science student focused on cybersecurity and offensive security.">
+  <meta name="theme-color" content="#08090b">
+  <title>Ilyes Laaradh — Cybersecurity</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="nav">
+    <a class="logo" href="#top" aria-label="Home">ilyes<span>.</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#about" data-i18n="nav.about">About</a>
+      <a href="#projects" data-i18n="nav.projects">Projects</a>
+      <a href="#writeups" data-i18n="nav.writeups">Write-ups</a>
+      <a href="#experience" data-i18n="nav.experience">Experience</a>
+      <a href="#contact" data-i18n="nav.contact">Contact</a>
+    </nav>
+    <div class="nav-right">
+      <button class="lang active" data-lang="en">EN</button><span>/</span><button class="lang" data-lang="fr">FR</button>
+      <a class="nav-github" href="https://github.com/ilyesept" target="_blank" rel="noopener">GitHub ↗</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span><span data-i18n="hero.status">CURRENTLY LEARNING &amp; BUILDING</span></div>
+        <h1>Ilyes<br><span>Laaradh.</span></h1>
+        <p class="hero-role" data-i18n="hero.role">Computer Science Student <b>·</b> Cybersecurity <b>·</b> Offensive Security</p>
+        <p class="hero-intro" data-i18n="hero.intro">I build, break and learn. I'm developing my technical skills through hands-on labs, projects and practical cybersecurity work.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects"><span data-i18n="hero.cta">View projects</span> <span>↓</span></a>
+          <a class="button secondary" href="https://github.com/ilyesept" target="_blank" rel="noopener">GitHub ↗</a>
+        </div>
+      </div>
+      <div class="terminal-card" aria-label="Terminal-style profile summary">
+        <div class="terminal-top"><span></span><span></span><span></span><small>ilyes@laaradh:~</small></div>
+        <div class="terminal-body">
+          <p><i>$</i> whoami</p><p class="terminal-value">ilyes</p>
+          <p><i>$</i> focus</p><p class="terminal-value" data-i18n="terminal.focus">offensive-security</p>
+          <p><i>$</i> currently-learning</p><p class="terminal-value">pentesting · web · linux</p>
+          <p><i>$</i> certification</p><p class="terminal-value">eJPT <span class="pulse" data-i18n="terminal.progress">→ in progress</span></p>
+          <p><i>$</i> <span class="cursor">_</span></p>
+        </div>
+      </div>
+    </section>
+
+    <div class="ticker" aria-hidden="true">
+      <span>CYBERSECURITY</span><b>✦</b><span>PENTESTING</span><b>✦</b><span>LINUX</span><b>✦</b><span>NETWORKING</span><b>✦</b><span>WEB SECURITY</span><b>✦</b><span>CTF / LABS</span>
+    </div>
+
+    <section class="section about" id="about">
+      <div class="section-label">01 / <span data-i18n="labels.about">ABOUT</span></div>
+      <div class="section-content">
+        <h2 data-i18n="about.title">Learning by <em>doing.</em></h2>
+        <p class="lead" data-i18n="about.lead">I'm an L3 Computer Science student at Université Bourgogne Europe, gradually specializing in cybersecurity with a particular interest in offensive security and penetration testing.</p>
+        <div class="facts">
+          <div><span>01</span><strong data-i18n="about.f1.title">Computer Science</strong><small data-i18n="about.f1.text">L3 · Université Bourgogne Europe</small></div>
+          <div><span>02</span><strong data-i18n="about.f2.title">Offensive Security</strong><small data-i18n="about.f2.text">Pentesting · Web Security · Linux</small></div>
+          <div><span>03</span><strong data-i18n="about.f3.title">Hands-on Learning</strong><small data-i18n="about.f3.text">Labs · CTFs · Personal projects</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="section-label">02 / <span data-i18n="labels.projects">PROJECTS</span></div>
+      <div class="section-content">
+        <div class="section-heading"><h2 data-i18n="projects.title">Things I'm <em>building.</em></h2><span class="mono-note" data-i18n="projects.note">// more coming soon</span></div>
+        <div class="project-grid">
+          <article class="project-card featured">
+            <div class="card-number">01</div><div class="card-meta">WEB · DEPLOYMENT</div>
+            <h3 data-i18n="projects.p1.title">Personal Cybersecurity Portfolio</h3>
+            <p data-i18n="projects.p1.text">Portfolio designed and deployed from scratch with HTML, CSS and JavaScript, using GitHub Pages, Cloudflare DNS and a custom domain.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>GitHub Pages</span></div>
+            <a href="https://github.com/ilyesept/ilyesept.github.io" target="_blank" rel="noopener" data-i18n="projects.source">Source code ↗</a>
+          </article>
+          <article class="project-card">
+            <div class="card-number">02</div><div class="card-meta">CYBERSECURITY · TRAINING</div>
+            <h3 data-i18n="projects.p2.title">eJPT Preparation</h3>
+            <p data-i18n="projects.p2.text">Hands-on preparation for the eJPT certification through practical exercises covering reconnaissance, enumeration, networking and web security.</p>
+            <div class="tags"><span>Linux</span><span>Networking</span><span>Web</span></div><span class="coming" data-i18n="common.progress">IN PROGRESS</span>
+          </article>
+          <article class="project-card">
+            <div class="card-number">03</div><div class="card-meta">LABS · OFFENSIVE SECURITY</div>
+            <h3 data-i18n="projects.p3.title">Security Labs &amp; Write-ups</h3>
+            <p data-i18n="projects.p3.text">Practical labs and challenges used to develop a structured methodology for enumeration, exploitation and post-exploitation.</p>
+            <div class="tags"><span>TryHackMe</span><span>CTF</span><span>Write-ups</span></div><span class="coming" data-i18n="common.soon">COMING SOON</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section writeups" id="writeups">
+      <div class="section-label">03 / <span data-i18n="labels.writeups">WRITE-UPS</span></div>
+      <div class="section-content">
+        <div class="section-heading"><h2 data-i18n="writeups.title">Notes from the <em>lab.</em></h2><span class="mono-note">// practical knowledge</span></div>
+        <div class="empty-state">
+          <span class="big-mark">↳</span>
+          <div><h3 data-i18n="writeups.empty.title">Write-ups will live here.</h3><p data-i18n="writeups.empty.text">Room for TryHackMe rooms, CTF challenges, vulnerability research and technical notes. Each write-up can later become its own page.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section experience" id="experience">
+      <div class="section-label">04 / <span data-i18n="labels.experience">EXPERIENCE</span></div>
+      <div class="section-content">
+        <div class="experience-item">
+          <div class="experience-date">2026</div>
+          <div><div class="card-meta">ORANGE CYBERDEFENSE · DIJON</div>
+            <h3 data-i18n="experience.title">Cybersecurity Discovery Internship</h3>
+            <p data-i18n="experience.text">Discovery of professional cybersecurity environments, including audit, risk analysis and incident response. Co-designed, with another intern, a crisis-response toolkit intended for hospitals facing a cyberattack.</p>
+            <div class="tags"><span>Audit</span><span>Risk</span><span>Incident Response</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section certifications">
+      <div class="section-label">05 / <span data-i18n="labels.certifications">CERTIFICATIONS</span></div>
+      <div class="section-content">
+        <div class="cert-card"><div><div class="card-meta">INE · 2026</div><h3>eJPT</h3><p data-i18n="cert.text">eLearnSecurity Junior Penetration Tester</p></div><span class="cert-status" data-i18n="common.progress">IN PROGRESS</span></div>
+      </div>
+    </section>
+
+    <section class="section skills">
+      <div class="section-label">06 / <span data-i18n="labels.skills">SKILLS</span></div>
+      <div class="section-content">
+        <div class="skill-groups">
+          <div><span>01</span><h3 data-i18n="skills.g1">Security</h3><p>Offensive Security · Pentesting · Web Security · CTF / Labs</p></div>
+          <div><span>02</span><h3 data-i18n="skills.g2">Systems &amp; Networks</h3><p>Linux · Networking · Databases · Systems</p></div>
+          <div><span>03</span><h3 data-i18n="skills.g3">Development</h3><p>Python · C · SQL · Git · HTML / CSS / JavaScript</p></div>
+        </div>
+        <p class="skills-note" data-i18n="skills.note">This section is intentionally kept honest and can grow as new tools and technologies are actually used.</p>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="contact-inner">
+        <div class="section-label">07 / <span data-i18n="labels.contact">CONTACT</span></div>
+        <h2 data-i18n="contact.title">Let's build<br><em>something.</em></h2>
+        <p data-i18n="contact.text">For projects, opportunities or a conversation about cybersecurity.</p>
+        <div class="contact-links">
+          <a href="https://www.linkedin.com/in/ilyes-laaradh/" target="_blank" rel="noopener">LinkedIn ↗</a>
+          <a href="https://github.com/ilyesept" target="_blank" rel="noopener">GitHub ↗</a>
+          <a href="mailto:ilyes@laaradh.com">Email ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer><span>© 2026 Ilyes Laaradh</span><span>Built from scratch · <a href="https://github.com/ilyesept/ilyesept.github.io">GitHub</a></span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
